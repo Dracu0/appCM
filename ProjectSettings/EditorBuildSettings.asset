@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/App_1/ReadWriteFile.unity
     guid: 96d746c883209fc4a8b0fae8e6eb4a9c
+  - enabled: 1
+    path: Assets/Scenes/App_2/Scene3.unity
+    guid: 5ef850b4f9856484ea68f65d15b87f7f
+  - enabled: 1
+    path: Assets/Scenes/App_2/Scene4.unity
+    guid: c4719979e6d78e64cb3fec0a77f06289
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 63766f8a1ab1f3c48b1c538f537fbe68, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

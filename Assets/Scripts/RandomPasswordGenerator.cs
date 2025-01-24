@@ -13,7 +13,11 @@ public class RandomPasswordGenerator : MonoBehaviour
     {
         passwordLength = Random.Range(8,24);
 
-        generatedPass = (specialChars[Random.Range(0, 2)] + characters[Random.Range(0, 25)] + specialChars[Random.Range(0, 2)] + characters[Random.Range(0, 25)] + characters[Random.Range(0, 25)].ToString().ToUpper());
+        generatedPass = (specialChars[Random.Range(0, 2)] 
+            + characters[Random.Range(0, 25)] 
+            + specialChars[Random.Range(0, 2)] 
+            + characters[Random.Range(0, 25)] 
+            + characters[Random.Range(0, 25)].ToString().ToUpper());
     
         generatedPassText.text = generatedPass.ToString();
 
